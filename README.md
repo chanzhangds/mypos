@@ -1,4 +1,4 @@
-# news
+# 资讯类web APP
 
 > A Vue.js project
 
