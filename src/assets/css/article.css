@@ -1,0 +1,175 @@
+html,body{ overflow-x: hidden; }
+	.article .nav{width:100%; position:fixed;top:0;left:0; background:#fff; border-bottom:1px solid #e8eaec; z-index:99;}
+	.article .nav ul{width:6.4rem;height:0.45rem; padding-top:0.075rem;  margin:0 auto;}
+	.article .nav ul li{width:0.5rem;height:0.5rem; background:url(../img/history.png) no-repeat 0 0; background-size:100%; margin:0 0 0 0.28rem;}
+	
+	.article .content{max-width:6.4rem; margin:0 auto; margin-top:0.6rem; background:#f2f4f5; padding-bottom:0.85rem;}
+	.article .content .header{ 
+		display:flex;
+		flex-direction: column;
+		justify-content: space-around;
+		padding:0.2rem;
+		border-bottom:1px solid #707070;
+	}
+	.article .header .title{
+		font-size: 0.5rem;
+		color:#fff;
+	}
+	.article .header .author{
+		font-size: 0.3rem;
+		color:#fff;
+	}	
+	.content .cont{ padding:0 0.15rem; color:#494d4d;}
+	.cont h3{ font-size:0.4rem; line-height:0.6rem; padding-bottom:0.25rem; border-bottom:1px solid #494d4d;}
+	.cont .time{height:0.24rem; line-height:0.24rem; margin:0.26rem 0; }
+    .header img{width:60px;height:60px;border-radius:50%;border:1px solid black;}
+	.time p{ float:left;position:relative;}
+	.time span{width:0.33rem;height:0.32rem; position:absolute; top:-0.02rem;right:-0.35rem;}
+	.time span img{width:100%;height:100%;}
+	/* 内容部分盒子的布局 */
+	.cont .text-box{ font-size:0.25rem;}
+	.article .text-box p{ line-height:0.45rem; margin-bottom:0.1rem;}
+
+
+	.article .text-box {
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+		overflow: hidden;	
+	}
+	/* .article .text-box figure{
+		overflow: hidden;	
+		margin:0;
+	}
+	
+	.article .article .text-box img{
+		width:100%;
+	   	height:100%;
+	} */
+	/* 评论部分盒子的布局 */
+	.article .comments{
+		display: flex;
+		flex-direction: column;
+		margin-bottom:0.2rem;
+		padding:0.15rem;
+	}
+	.article .comments .box{
+		background: #fff;
+		margin-bottom: 0.1rem;
+		display: flex;
+		flex-direction: column;
+		padding:0.1rem;
+        box-shadow: 0 15px 15px 0 rgba(15, 37, 64, 0.10);
+
+	}
+	.article .comments .box .author{
+		font-size: 0.3rem;
+	}
+	.article .comments .box .author img{
+		border-radius: 50%;
+		width:0.7rem;
+		margin-right:0.2rem;
+	}
+	.article .comments .box .date{
+		align-self: flex-end;
+	}
+	.article .comments .box .main{
+		font-size: 0.25rem;
+		padding-left:0.4rem;
+		margin-top:0.1rem;
+	}
+	/* 评论框的布局 */
+	.article .foot-btn{
+		width:92%;
+		height:3.2rem;
+		background:#C7C7C7;
+		 border-top:1px solid #e8eaec;
+		position:fixed;
+		left:4%;
+		right:4%;
+		top:2.4rem;
+		border-radius: 0.15rem;
+		display:flex;
+		flex-direction: column;		
+	}
+	.article .foot-btn .warn{
+		font-size: 0.3rem;
+		display:flex;
+		justify-content: center;
+		color:red;
+	}	
+	.article .foot-btn .input{
+		width:100%;
+		border:1px solid bolck;
+		background: #BDBDBD;
+		border-radius: 0.15rem;
+		display:flex;
+		flex-direction: row;
+		align-content: center;
+		justify-content: center;
+	}
+	.article .foot-btn .input textarea{
+		background:#fff;
+		width:4rem;
+		margin:0.15rem;
+		border-radius: 0.15rem;
+		font-size: 0.28rem;
+	}
+	.article .foot-btn .allButton{
+		width:1.2rem;
+		display: flex;
+		flex-direction: column;
+		justify-content:space-between;
+		align-content: center;
+	}
+	.article .foot-btn .input .inputButton{
+		background: #fff;
+		margin:0.15rem;
+		width:1rem;
+		height:0.6rem;
+		font-size: 0.3rem;
+		border-radius: 0.15rem;
+		
+	}
+	.article .foot-btn .input .inputButton:active{
+		background: red;
+		
+	}
+	.article .closeButton{
+		background: #fff;
+		width:0.7rem;
+		height:0.7rem;
+		border-radius: 50%;
+		margin: 0.15rem;
+		display: flex;
+		justify-content: center;
+		align-self: center;
+	}
+	.article .closeButton:active{
+		background: red;
+	}
+	.article .closeButton img{
+		width:90%;
+		height:90%;
+		align-self: center;
+	}
+	.article .mini-foot{
+		width:1.1rem;
+		height:1.1rem;
+		position:fixed;
+		right:0.2rem;
+		bottom:0.2rem;
+		border-radius: 50%;
+		background: #fff;
+		border:1px solid #D4D4D4;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;		
+	}
+	.article .mini-foot img{
+		width:60%;
+		height:60%;
+		align-self: center
+	}
+
+
